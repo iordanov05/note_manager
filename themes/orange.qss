@@ -1,0 +1,123 @@
+/* Основной фон и текст */
+QWidget {
+    background-color: #fff8f0;
+    color: #333333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/* Поля ввода */
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #e0a96d;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #ffcc80;
+    color: #000000;
+    border: 1px solid #ffa726;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #ffb74d;
+}
+
+/* Таблица */
+QTableView {
+    background-color: #ffffff;
+    alternate-background-color: #fff3e0;
+    gridline-color: #ffa726;
+    border: 1px solid #ffa726;
+    selection-background-color: #ffe0b2;
+    selection-color: #000000;
+}
+
+QTableView::item:selected {
+    background-color: #ffe0b2;
+    color: #000000;
+}
+
+/* Заголовки таблиц */
+QHeaderView::section {
+    background-color: #ffb74d;
+    padding: 6px;
+    border: 1px solid #ffa726;
+    font-weight: bold;
+}
+
+/* Меню */
+QMenu {
+    background-color: #fff3e0;
+    color: #333;
+    border: 1px solid #ffa726;
+}
+
+QMenu::item:selected {
+    background-color: #ffd699;
+    color: #000;
+}
+
+/* Выпадающий список */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #e0a96d;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #fff3e0;
+    selection-background-color: #ffd699;
+    selection-color: #000;
+}
+
+/* Прокрутка */
+QScrollBar:vertical, QScrollBar:horizontal {
+    background-color: #fff3e0;
+    border: none;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #ffcc80;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:hover {
+    background: #ffb74d;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    height: 0;
+    width: 0;
+}
+
+/* Чекбоксы */
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(none);
+    border: 1px solid #ffa726;
+    background: #fff8f0;
+}
+
+QCheckBox::indicator:checked {
+    image: url(none);
+    border: 1px solid #ffa726;
+    background-color: #ffcc80;
+}

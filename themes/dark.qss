@@ -1,0 +1,40 @@
+/* Тёмная тема */
+QWidget {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #3c3c3c;
+    color: #f0f0f0;
+    border: 1px solid #555555;
+    padding: 4px;
+}
+
+QPushButton {
+    background-color: #444444;
+    color: #f0f0f0;
+    border: 1px solid #666666;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}
+
+QTableView {
+    background-color: #333333;
+    alternate-background-color: #3a3a3a;
+    gridline-color: #555555;
+    border: 1px solid #444444;
+}
+
+QHeaderView::section {
+    background-color: #444444;
+    padding: 6px;
+    border: 1px solid #666666;
+    font-weight: bold;
+}

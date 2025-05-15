@@ -1,0 +1,41 @@
+/* Тёмная тема Solarized */
+QWidget {
+    background-color: #002b36;
+    color: #839496;
+    font-size: 14px;
+    font-family: Consolas, monospace;
+}
+
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #073642;
+    color: #eee8d5;
+    border: 1px solid #586e75;
+    padding: 4px;
+}
+
+QPushButton {
+    background-color: #586e75;
+    color: #fdf6e3;
+    border: 1px solid #657b83;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #657b83;
+}
+
+QTableView {
+    background-color: #073642;
+    alternate-background-color: #002b36;
+    gridline-color: #586e75;
+    border: 1px solid #586e75;
+}
+
+QHeaderView::section {
+    background-color: #586e75;
+    padding: 6px;
+    border: 1px solid #073642;
+    font-weight: bold;
+    color: #fdf6e3;
+}
