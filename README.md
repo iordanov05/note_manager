@@ -39,22 +39,22 @@
 
 ```
 
-note\_manager/
+note_manager/
 ├── db.py               # инициализация SQLite + SQLAlchemy
 ├── main.py             # точка входа, загрузка темы, запуск QApplication
-├── table\_model.py      # QAbstractTableModel для отображения списка заметок
+├── table_model.py      # QAbstractTableModel для отображения списка заметок
 ├── models/
 │   └── note.py         # ORM-модель Note
 ├── themes/             # QSS-файлы тем оформления
 │   ├── dark.qss
 │   ├── light.qss
-│   ├── pastel\_light.qss
+│   ├── pastel_light.qss
 │   ├── orange.qss
 │   ├── purple.qss
-│   └── solarized\_dark.qss
+│   └── solarized_dark.qss
 └── views/
-├── main\_window\.py  # главное окно приложения
-└── note\_dialog.py  # диалог создания/редактирования заметки
+├── main_window.py  # главное окно приложения
+└── note_dialog.py  # диалог создания/редактирования заметки
 
 ````
 
